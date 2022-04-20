@@ -1,0 +1,26 @@
+
+/* CONTENT */
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    padding: 20px;
+    margin: 20px;
+    /* border: 1px solid black; */
+}
+
+/* PROPERTIES */
+.center {
+    text-align: center;
+}
+
+.alert {
+    margin: 20px 0;
+}
+
+#img404 {
+    width: 600px;
+}

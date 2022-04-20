@@ -1,0 +1,22 @@
+table, td, th {
+    border:1px solid black;
+}
+
+table {
+    border-collapse:collapse;
+    width: 100%;
+    text-align:center;
+}
+
+.gauche, .droite {
+    width: 49%;
+    box-sizing: border-box;
+    border : 1px solid black;
+    padding : 10px;
+}
+.gauche {
+    float : left;
+}
+.droite {
+    float : right;
+}

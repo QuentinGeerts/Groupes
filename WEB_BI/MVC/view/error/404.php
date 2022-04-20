@@ -1,0 +1,1 @@
+<h2>Page ~<?= $_GET['section']; ?>~ <br>non trouvée</h2>

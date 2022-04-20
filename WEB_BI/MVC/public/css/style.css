@@ -1,0 +1,18 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-bottom: 1px solid lightgrey;
+}
+
+nav li {
+    float: left;
+}
+
+nav a, nav li span {
+    display: block;
+    margin: 14px 16px;
+    text-decoration: none;
+    color: black;
+}

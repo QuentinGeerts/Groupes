@@ -1,0 +1,4 @@
+
+<!-- Scripts ici -->
+</body>
+</html>

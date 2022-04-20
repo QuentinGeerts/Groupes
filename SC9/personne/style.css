@@ -1,0 +1,109 @@
+/* BODY */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* CONTAINER */
+
+.container {
+  padding: 20px;
+}
+
+/* NAVBAR */
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-bottom: 1px solid lightgrey;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: #efefef;
+}
+
+/* TABLE */
+
+table {
+  border-collapse: collapse;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 10px;
+  width: 15%;
+}
+
+tr:nth-child(odd) {
+  background: rgb(207, 207, 207);
+}
+
+table a {
+    color: black;
+}
+
+/* PROPERTIES */
+.center {
+    text-align: center;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.ErrorMessage {
+    color: black;
+    font-weight: bold;
+    border-radius: 2%;
+    width: fit-content;
+}
+
+/* DETAILS */
+
+.details {
+    min-height: 80%;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0 0 lightgrey;
+    padding: 20px;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+/* FORMS */
+
+form > * {
+    display: block;
+    margin: 10px 0;
+}
+
+input[type=submit] {
+    padding: 5px;
+    width: 100px;
+    margin: 20px 0;
+}

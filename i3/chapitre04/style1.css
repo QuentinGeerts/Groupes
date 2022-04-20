@@ -1,0 +1,25 @@
+div {
+    border: 1px dotted black;
+    width: 48%;
+    box-sizing : border-box;
+    padding : 10px;
+    margin : 10px;
+}
+
+table, td, th {
+    border:1px solid black;
+}
+
+table {
+    border-collapse:collapse;
+    width: 100%;
+    text-align:center;
+}
+
+.gauche {
+    float : left;
+}
+
+.droite {
+    float : right;
+}

@@ -1,0 +1,74 @@
+/* BODY */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* NAVBAR */
+
+.navbar {
+  width: 100%;
+  
+  background: #333;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+    background: #555;
+}
+
+/* CONTAINER */
+.container {
+    padding: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 500px;
+  line-height: 30px;
+  text-indent: 20px;
+}
+
+td, th {
+  border: 1px solid black;
+}
+
+/* FORM */
+
+form > * {
+  display: block;
+  margin: 20px 0;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
